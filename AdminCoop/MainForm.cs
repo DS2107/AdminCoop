@@ -17,7 +17,7 @@ namespace AdminCoop
 {
     public partial class MainForm : Form
     {
-        AdminCoopEntities db;
+        AdminCoopEntities db = new AdminCoopEntities();
 
         public string users_log;
         public MainForm()
@@ -72,7 +72,6 @@ namespace AdminCoop
         {
             indicator.Top = ((Control)sender).Top;
             Pages.SetPage("Сотрудники");
-            db = new AdminCoopEntities();
             db.Accounts.Load();
             var list_account = db.Accounts.Local.ToBindingList();
             foreach (var info in list_account)
@@ -158,6 +157,22 @@ namespace AdminCoop
             new_Worker.ShowDialog();
             TopMost = false;
             new_Worker.TopMost = true;
+        }
+
+        private void bunifuButton2_Click(object sender, EventArgs e)
+        {
+
+            Account account = db.Accounts.Where(o => o.Full_name == label_name.Text).FirstOrDefault();
+            db.Accounts.Remove(account);
+            db.SaveChanges();
+            DGcust.Rows.Clear();
+            db.Accounts.Load();
+            var list_account = db.Accounts.Local.ToBindingList();
+            foreach (var info in list_account)
+            {
+                string[] infostring = { info.Full_name, info.Phone, info.Appointment };
+                DGcust.Rows.Add(infostring);
+            }
         }
     }
 }

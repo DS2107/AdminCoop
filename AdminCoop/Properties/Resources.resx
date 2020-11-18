@@ -124,11 +124,8 @@
   <data name="Help-Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\Help-Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Media-Start-Gray" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\Media-Start-Gray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Media-Start-Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\Media-Start-Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Finance-Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\Finance-Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="User-Group-Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\User-Group-Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,6 +139,9 @@
   <data name="User-Group-Gray" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\User-Group-Gray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Box-Gray" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\Box-Gray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="user_noActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\user_noActive.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -151,11 +151,26 @@
   <data name="Finance-Gray" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\Finance-Gray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Finance-Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\Finance-Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Box-Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\Box-Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="call-active" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\call-active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Media-Start-Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\Media-Start-Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Media-Start-Gray" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\Media-Start-Gray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="podium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\podium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lock-gray" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\Lock-gray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="salary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\salary.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="User-Profile-Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\User-Profile-Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,14 +178,17 @@
   <data name="Office-Gray" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\Office-Gray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Box-Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\Box-Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Help-Gray" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\Help-Gray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Lock-gray" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\Lock-gray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="call" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\call.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Box-Gray" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\Box-Gray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="salary-active" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\salary-active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="user_Active" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\user_Active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -178,7 +196,7 @@
   <data name="Office-Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\Office-Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="podium-active" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\podium-active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

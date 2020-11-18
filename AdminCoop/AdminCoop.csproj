@@ -226,6 +226,8 @@
     <None Include="icon\Help-Green.png" />
     <None Include="icon\Lock-gray.png" />
     <None Include="icon\Lock-Green.png" />
+    <None Include="icon\call.png" />
+    <None Include="icon\call-active.png" />
     <Content Include="icon\lock_active.png" />
     <None Include="icon\User-Group-Gray.png" />
     <None Include="icon\User-Group-Green.png" />
@@ -236,6 +238,10 @@
     <None Include="icon\User-Profile-Gray.png" />
     <None Include="icon\User-Profile-Green.png" />
     <None Include="icon\user.png" />
+    <None Include="icon\podium.png" />
+    <None Include="icon\salary.png" />
+    <None Include="icon\salary-active.png" />
+    <None Include="icon\podium-active.png" />
     <Content Include="ModelAdminCoop.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>ModelAdminCoop.Context.cs</LastGenOutput>

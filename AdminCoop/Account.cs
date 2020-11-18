@@ -27,7 +27,7 @@ namespace AdminCoop
         public int Network_status { get; set; }
         public byte[] Photo { get; set; }
         public string Appointment { get; set; }
-        public Nullable<decimal> Salary { get; set; }
+        public string Salary { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<cabinet> cabinets { get; set; }

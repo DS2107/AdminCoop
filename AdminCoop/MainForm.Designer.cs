@@ -231,7 +231,7 @@
             this.tabPage_Statistics.Location = new System.Drawing.Point(4, 4);
             this.tabPage_Statistics.Name = "tabPage_Statistics";
             this.tabPage_Statistics.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_Statistics.Size = new System.Drawing.Size(1190, 528);
+            this.tabPage_Statistics.Size = new System.Drawing.Size(1190, 622);
             this.tabPage_Statistics.TabIndex = 0;
             this.tabPage_Statistics.Text = "Статистика";
             // 
@@ -454,7 +454,7 @@
             this.tabPage_Tenants.Location = new System.Drawing.Point(4, 4);
             this.tabPage_Tenants.Name = "tabPage_Tenants";
             this.tabPage_Tenants.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_Tenants.Size = new System.Drawing.Size(1190, 528);
+            this.tabPage_Tenants.Size = new System.Drawing.Size(1190, 622);
             this.tabPage_Tenants.TabIndex = 2;
             this.tabPage_Tenants.Text = "Арендаторы";
             // 
@@ -464,7 +464,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 4);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1190, 528);
+            this.tabPage2.Size = new System.Drawing.Size(1190, 622);
             this.tabPage2.TabIndex = 3;
             this.tabPage2.Text = "Склад";
             // 
@@ -474,7 +474,7 @@
             this.tabPage_help.Location = new System.Drawing.Point(4, 4);
             this.tabPage_help.Name = "tabPage_help";
             this.tabPage_help.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_help.Size = new System.Drawing.Size(1190, 528);
+            this.tabPage_help.Size = new System.Drawing.Size(1190, 622);
             this.tabPage_help.TabIndex = 4;
             this.tabPage_help.Text = "Помощь";
             // 
@@ -623,6 +623,7 @@
             this.bunifuButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuButton2.TextMarginLeft = 0;
             this.bunifuButton2.UseDefaultRadiusAndThickness = true;
+            this.bunifuButton2.Click += new System.EventHandler(this.bunifuButton2_Click);
             // 
             // bunifuButton1
             // 

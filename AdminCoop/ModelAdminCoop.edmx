@@ -13,9 +13,9 @@
           <Property Name="Full_name" Type="varchar" MaxLength="100" Nullable="false" />
           <Property Name="Phone" Type="varchar" MaxLength="15" Nullable="false" />
           <Property Name="Network_status" Type="int" Nullable="false" />
-          <Property Name="Photo" Type="binary" MaxLength="4000" />
+          <Property Name="Photo" Type="varbinary(max)" />
           <Property Name="Appointment" Type="varchar" MaxLength="50" />
-          <Property Name="Salary" Type="decimal" Precision="18" Scale="0" />
+          <Property Name="Salary" Type="varchar" MaxLength="50" />
         </EntityType>
         <EntityType Name="cabinets">
           <Key>
@@ -185,11 +185,11 @@
           <Property Name="Full_name" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
           <Property Name="Phone" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
           <Property Name="Network_status" Type="Int32" Nullable="false" />
-          <Property Name="Photo" Type="Binary" />
+          <Property Name="Photo" Type="Binary" MaxLength="Max" FixedLength="false" />
           <Property Name="Appointment" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
           <NavigationProperty Name="cabinets" Relationship="AdminCoopModel.FK_cabinets_Account" FromRole="Account" ToRole="cabinet" />
           <NavigationProperty Name="Users" Relationship="AdminCoopModel.FK_Users_Account" FromRole="Account" ToRole="User" />
-          <Property Name="Salary" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="Salary" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
         </EntityType>
         <EntityType Name="cabinet">
           <Key>
