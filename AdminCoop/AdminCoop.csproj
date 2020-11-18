@@ -47,6 +47,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Bunifu.Core, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL" />
     <Reference Include="Bunifu.UI.WinForm.BunifuShadowPanel">
@@ -63,6 +66,9 @@
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuImageButton">
       <HintPath>Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuImageButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuLabel">
+      <HintPath>Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuLabel.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuPages">
       <HintPath>Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuPages.dll</HintPath>
@@ -114,6 +120,9 @@
     <Compile Include="Authorization.Designer.cs">
       <DependentUpon>Authorization.cs</DependentUpon>
     </Compile>
+    <Compile Include="cabinet.cs">
+      <DependentUpon>ModelAdminCoop.tt</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,6 +144,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ModelAdminCoop.edmx</DependentUpon>
     </Compile>
+    <Compile Include="New_worker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="New_worker.Designer.cs">
+      <DependentUpon>New_worker.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="sp_helpdiagramdefinition_Result.cs">
@@ -143,10 +158,13 @@
     <Compile Include="sp_helpdiagrams_Result.cs">
       <DependentUpon>ModelAdminCoop.tt</DependentUpon>
     </Compile>
-    <Compile Include="sysdiagrams.cs">
+    <Compile Include="sysdiagram.cs">
       <DependentUpon>ModelAdminCoop.tt</DependentUpon>
     </Compile>
-    <Compile Include="Users.cs">
+    <Compile Include="User.cs">
+      <DependentUpon>ModelAdminCoop.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UsersAccount_Result.cs">
       <DependentUpon>ModelAdminCoop.tt</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Authorization.resx">
@@ -154,6 +172,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New_worker.resx">
+      <DependentUpon>New_worker.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -203,6 +224,8 @@
     <None Include="icon\Box-Green.png" />
     <None Include="icon\Help-Gray.png" />
     <None Include="icon\Help-Green.png" />
+    <None Include="icon\Lock-gray.png" />
+    <None Include="icon\Lock-Green.png" />
     <Content Include="icon\lock_active.png" />
     <None Include="icon\User-Group-Gray.png" />
     <None Include="icon\User-Group-Green.png" />
@@ -210,6 +233,9 @@
     <None Include="icon\Office-Green.png" />
     <None Include="icon\Media-Start-Gray.png" />
     <None Include="icon\Media-Start-Green.png" />
+    <None Include="icon\User-Profile-Gray.png" />
+    <None Include="icon\User-Profile-Green.png" />
+    <None Include="icon\user.png" />
     <Content Include="ModelAdminCoop.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>ModelAdminCoop.Context.cs</LastGenOutput>

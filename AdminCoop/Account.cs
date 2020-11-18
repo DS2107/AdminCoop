@@ -14,11 +14,24 @@ namespace AdminCoop
     
     public partial class Account
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public Account()
+        {
+            this.cabinets = new HashSet<cabinet>();
+            this.Users = new HashSet<User>();
+        }
+    
         public int id_account { get; set; }
         public string Full_name { get; set; }
         public string Phone { get; set; }
-        public int Cabinet { get; set; }
         public int Network_status { get; set; }
-        public string Photo { get; set; }
+        public byte[] Photo { get; set; }
+        public string Appointment { get; set; }
+        public Nullable<decimal> Salary { get; set; }
+    
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<cabinet> cabinets { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<User> Users { get; set; }
     }
 }

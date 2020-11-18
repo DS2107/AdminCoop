@@ -5,9 +5,12 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="344c61ec9b4243ca9bd14a2ccf46ce0c" Name="Diagram1">
-        <EntityTypeShape EntityType="AdminCoopModel.Account" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="AdminCoopModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="AdminCoopModel.Users" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdminCoopModel.Account" Width="1.5" PointX="0.625" PointY="1.75" />
+        <EntityTypeShape EntityType="AdminCoopModel.cabinet" Width="1.5" PointX="3" PointY="1.125" />
+        <EntityTypeShape EntityType="AdminCoopModel.sysdiagram" Width="1.5" PointX="5.75" PointY="0.75" />
+        <EntityTypeShape EntityType="AdminCoopModel.User" Width="1.5" PointX="3" PointY="4.25" />
+        <AssociationConnector Association="AdminCoopModel.FK_cabinets_Account" />
+        <AssociationConnector Association="AdminCoopModel.FK_Users_Account" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

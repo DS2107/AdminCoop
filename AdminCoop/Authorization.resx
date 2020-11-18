@@ -123,6 +123,32 @@
   <metadata name="timer2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>118, 17</value>
   </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="button_authorization1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAMAAAAAtCAYAAAD4BmRbAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAEqSURBVHhe7d2xTcRAGITRbcR3lEIFtGYjyiAmpRQauIgG
+        1pzRhK7A837pJdaG38QeztXffd1f7tv8vG37Dpf3Pr+O5pP/GLd1fp8+hIta1vmT/J8DOHkAV5f8DYBO
+        yd8A6JT8DYBOyd8A6JT8DYBOyd8A6JT8DYBOyd8A6JT8DYBOyd8A6JT8DYBOyd8A6JT8DYBOyd8A6JT8
+        DYBOyd8A6JT8DYBOyd8A6JT8DYBOyd8A6JT8DYBOyd8A6JT8DYBOyd8A6JT8DYBOyd8A6JT8DYBOyd8A
+        6JT8DYBOyd8A6JT8DYBOyd8A6JT8DYBOyd8A6JT8DYBOyd8A6JT8DYBOyd8A6JT8xzj+mXr2AK5q2eZv
+        8v//U/zr88Pj7CFczRH/8jHfkr9zrTfGH0quRahH3wN6AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="bunifuLabel1.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 1.2px; font-family: 'Modern No. 20'; font-size: 24pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: MediumSlateBlue; text-align: left; }</value>
+  </data>
+  <data name="B_Close.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAACASURBVEhL7daxDYAwDERRbxJiL8IELEoBAdEyCgtQMQE4
+        0pXuHKVAjvS7U15r6v6WlIbCPG/Mb/NyPur/oIhKzqdi9rhBO/MFisgatA5UYL5ABeYLVGC+QAXmC1Rg
+        vkAF5gvUn7F6/ViDVun19oBSTGTUU+62ht4qtIpMoHo9og9gacLIY/iKZgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <metadata name="bunifuElipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>219, 17</value>
+  </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>25</value>
   </metadata>

@@ -118,44 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Lock_noActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\Lock_noActive.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Office-Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\Office-Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Lock_active" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\Lock_active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="user_noActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\user_noActive.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Finance-Gray" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\Finance-Gray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="user_Active" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\user_Active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="User-Group-Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\User-Group-Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Office-Gray" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\Office-Gray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Box-Gray" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\Box-Gray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="User-Group-Gray" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\User-Group-Gray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Finance-Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\Finance-Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Box-Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\Box-Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Help-Gray" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\Help-Gray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Help-Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\Help-Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -165,5 +129,56 @@
   </data>
   <data name="Media-Start-Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\Media-Start-Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="User-Group-Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\User-Group-Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lock_noActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\Lock_noActive.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lock-Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\Lock-Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="User-Group-Gray" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\User-Group-Gray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_noActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\user_noActive.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="User-Profile-Gray" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\User-Profile-Gray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Finance-Gray" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\Finance-Gray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Finance-Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\Finance-Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Box-Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\Box-Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="User-Profile-Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\User-Profile-Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Office-Gray" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\Office-Gray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Help-Gray" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\Help-Gray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lock-gray" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\Lock-gray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Box-Gray" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\Box-Gray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_Active" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\user_Active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Office-Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\Office-Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

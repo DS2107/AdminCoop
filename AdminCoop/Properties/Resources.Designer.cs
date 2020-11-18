@@ -133,6 +133,26 @@ namespace AdminCoop.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Lock_gray {
+            get {
+                object obj = ResourceManager.GetObject("Lock-gray", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Lock_Green {
+            get {
+                object obj = ResourceManager.GetObject("Lock-Green", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Lock_noActive {
             get {
                 object obj = ResourceManager.GetObject("Lock_noActive", resourceCulture);
@@ -183,6 +203,16 @@ namespace AdminCoop.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap user {
+            get {
+                object obj = ResourceManager.GetObject("user", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap user_Active {
             get {
                 object obj = ResourceManager.GetObject("user_Active", resourceCulture);
@@ -216,6 +246,26 @@ namespace AdminCoop.Properties {
         internal static System.Drawing.Bitmap user_noActive {
             get {
                 object obj = ResourceManager.GetObject("user_noActive", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap User_Profile_Gray {
+            get {
+                object obj = ResourceManager.GetObject("User-Profile-Gray", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap User_Profile_Green {
+            get {
+                object obj = ResourceManager.GetObject("User-Profile-Green", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

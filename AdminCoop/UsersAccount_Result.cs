@@ -10,13 +10,10 @@
 namespace AdminCoop
 {
     using System;
-    using System.Collections.Generic;
     
-    public partial class Users
+    public partial class UsersAccount_Result
     {
-        public int id_user { get; set; }
         public string unique_name { get; set; }
         public string password { get; set; }
-        public int id_account { get; set; }
     }
 }
