@@ -20,6 +20,7 @@ namespace AdminCoop
         private void Button_close_Click(object sender, EventArgs e)
         {
             Close();
+
         }
 
         private void tb_FIO_Click(object sender, EventArgs e)

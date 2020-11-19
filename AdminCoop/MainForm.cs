@@ -20,42 +20,13 @@ namespace AdminCoop
         AdminCoopEntities db = new AdminCoopEntities();
 
         public string users_log;
+
+        string FullName;
         public MainForm()
         {
            
             InitializeComponent();
-           /* Bitmap BM = new Bitmap(bunifuPictureBox2.Image);
-            System.IO.MemoryStream MS = new System.IO.MemoryStream();
-            BM.Save(MS, System.Drawing.Imaging.ImageFormat.Jpeg);
-            byte[] B = MS.ToArray();*/
-
-
-          /*  Account account = new Account();
-            account.Full_name = "2";
-            account.Appointment = "we";
-            account.Network_status = 1;
-            account.Phone = "333333";
-            account.Salary = 3333;
-            account.Photo = B;
-            db = new AdminCoopEntities();
-            db.Accounts.Add(account);
-            db.SaveChanges();*/
-
-          /*  Image img = Image.FromFile(@"D:\1.png");
-            MemoryStream stream = new MemoryStream();
-            img.Save(stream, ImageFormat.Jpeg);
-            byte[] array = stream.ToArray();
-            stream.Dispose();
-            Account account = new Account();
-            account.Full_name = "музыка";
-            account.Appointment = "we";
-            account.Network_status = 1;
-            account.Phone = "333333";
-            account.Salary = 3333;
-            account.Photo = array;
-            db = new AdminCoopEntities();
-            db.Accounts.Add(account);
-            db.SaveChanges();*/
+       
 
             //bunifuFormDock1.SubscribeControlToDragEvents(menu);
             //bunifuFormDock1.SubscribeControlToDragEvents(avatar_container);
@@ -119,15 +90,16 @@ namespace AdminCoop
         private void DGcust_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             // DGcust["name", e.RowIndex].Value;
-            label_appointment.Text = DGcust["appointment", e.RowIndex].Value.ToString();
-            label_number.Text = DGcust["number", e.RowIndex].Value.ToString();
+            FullName = DGcust["name", e.RowIndex].Value.ToString();
+            tb_appointment.Text = DGcust["appointment", e.RowIndex].Value.ToString();
+            tb_number.Text = DGcust["number", e.RowIndex].Value.ToString();
             var list_account = db.Accounts.Local.ToBindingList();
             foreach (var info in list_account)
             {
               if(info.Full_name == DGcust["name", e.RowIndex].Value.ToString())
                 {
-                    label_zp.Text = info.Salary.ToString();
-                    label_name.Text = info.Full_name.ToString();
+                    tb_zp.Text = info.Salary.ToString();
+                    tb_name.Text = info.Full_name.ToString();
                     MemoryStream stream = new MemoryStream();
                     Image img;
                     if (info.Photo != null)
@@ -155,6 +127,14 @@ namespace AdminCoop
         {
             New_worker new_Worker = new New_worker();
             new_Worker.ShowDialog();
+            DGcust.Rows.Clear();
+            db.Accounts.Load();
+            var list_account = db.Accounts.Local.ToBindingList();
+            foreach (var info in list_account)
+            {
+                string[] infostring = { info.Full_name, info.Phone, info.Appointment };
+                DGcust.Rows.Add(infostring);
+            }
             TopMost = false;
             new_Worker.TopMost = true;
         }
@@ -162,7 +142,7 @@ namespace AdminCoop
         private void bunifuButton2_Click(object sender, EventArgs e)
         {
 
-            Account account = db.Accounts.Where(o => o.Full_name == label_name.Text).FirstOrDefault();
+            Account account = db.Accounts.Where(o => o.Full_name == tb_name.Text).FirstOrDefault();
             db.Accounts.Remove(account);
             db.SaveChanges();
             DGcust.Rows.Clear();
@@ -172,6 +152,40 @@ namespace AdminCoop
             {
                 string[] infostring = { info.Full_name, info.Phone, info.Appointment };
                 DGcust.Rows.Add(infostring);
+            }
+        }
+
+        private void button_update_Click(object sender, EventArgs e)
+        {
+            DGcust.Rows.Clear();
+            db.Accounts.Load();
+            var list_account = db.Accounts.Local.ToBindingList();
+            foreach (var info in list_account)
+            {
+                string[] infostring = { info.Full_name, info.Phone, info.Appointment };
+                DGcust.Rows.Add(infostring);
+            }
+        }
+
+        private void bunifuButton1_Click(object sender, EventArgs e)
+        {
+            if(FullName != null)
+            {
+                var account_update = db.Accounts.Where(c => c.Full_name == FullName).FirstOrDefault();
+                account_update.Full_name = tb_name.Text;
+                account_update.Salary = tb_zp.Text;
+                account_update.Appointment = tb_appointment.Text;
+                account_update.Phone = tb_number.Text;
+
+                Bitmap BM = new Bitmap(image_user_account.Image);
+                System.IO.MemoryStream MS = new System.IO.MemoryStream();
+                BM.Save(MS, System.Drawing.Imaging.ImageFormat.Jpeg);
+                byte[] B = MS.ToArray();
+                account_update.Photo = B;
+
+                db.SaveChanges();
+
+
             }
         }
     }
